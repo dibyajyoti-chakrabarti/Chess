@@ -1,0 +1,14 @@
+create database chess;
+use chess;
+create table count_turn(
+count int
+);
+create table game_status(
+status int
+);
+create table promotion_piece(
+piece varchar(10)
+);
+create table game_board(
+board varchar(200)
+);
